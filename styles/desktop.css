@@ -1,0 +1,20 @@
+header .header-image {
+    background-image: url("../assets/imgs/header_medium.jpg");
+}
+.main-profile-container .profile-picture {
+    width: 120px;
+    height: 120px;
+    top: -60px;
+    left: calc(50% - 60px);
+}
+.main-profile-container .profile-name {
+    font-size: 2.2rem;
+    padding-top: 40px;
+}
+.main-profile-container .profile-roll, .main-projects-container h2  {
+    font-size: 1.8rem;
+}
+.main-about-container p, .main-projects-container ul li, .main-projects-container ul a, footer .footer-contact-container p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
