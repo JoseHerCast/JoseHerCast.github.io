@@ -5,20 +5,39 @@
     <meta name="description" content="Aquí encontrarás todos mis proyectos personales, me llamo José Hernández y soy desarrollador web. ¡Bienvenidos!">
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My projects</title>
+    <link rel="stylesheet" href="./styles/phone.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@300;500;700&display=swap">
 </head>
 <body>
-    <header>
-        <picture>Imagen de fondo de cabecera</picture>
-        <div>Aqui va mi foto y mi nombre</div>
+    <header> 
+        <span class="header-image"></span>
     </header>
     <main>
-        <section>Acerca de mi</section>
-        <section>Mis proyectos</section>
-        <section>Enlaces a mis redes laborales</section>
+        <div class="main-profile-container">
+            <span class="profile-picture"></span>
+            <p class="profile-name">José Hernández</p>
+            <p class="profile-roll">Web developer</p>
+        </div>
+        <section class="main-about-container">
+            <p>Soy estudiante de la Facultad de Ingeniería de la UNAM, en la carrera de Ingeniería en Computación. Apasionado de la tecnología, la animación y el desarrollo de software.<br><br>Actualmente me especializo en el Desarrollo Web Integral; 'Backend', 'Frontend', 'Mobile First', 'Responsive Design', 'Modern Workflow', etc.
+            </p>
+        </section>
+        <section class="main-projects-container">
+            <h2>Mis proyectos</h2>
+            <ul>
+                <li><a href="https://josehercast.github.io/Batatabit_2020/" target="_blank">BatataBit 2020</a>: Un sitio web para la compra de criptomonedas.</li>
+                <li><a href="https://josehercast.github.io/ZGYM/"  target="_blank">ZGYM</a>: Prototipo de 'mobile page' para un gimnasio con temática de Dragon Ball Z.</li>
+                <li><a href="https://josehercast.github.io/Google_Clone/"  target="_blank">Google_Clone</a>: Clon del buscador de Google para escritorio.</li>
+            </ul>
+        </section>
     </main>
     <footer>
-        <div>Aqui van mis datos de contacto</div>
+        <div class="footer-contact-container">
+            <p><span class="linkedin"></span><a href="www.linkedin.com/in/jose-hernandez-wd">Linkedin</a></p>
+            <p><span class="whatsapp"></span>(+52) 55-5053-3845</p>
+            <p><span class="mail"></span>Jose_Hernandez_C@outlook.com</p>
+        </div>
     </footer>
 </body>
 </html>
